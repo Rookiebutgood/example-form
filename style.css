@@ -1,3 +1,7 @@
+:root{--typical_shadow: 0 0 15px black;}
+
+
+
 body{
   padding: 0;
   margin: 0;
@@ -36,7 +40,7 @@ body{
   border-radius: 5px;
   box-shadow: 0 0 5px black;
   font-size: 14px;
-   text-shadow: 0 0 15px black;
+   text-shadow:var(--typical_shadow);
 }
 
 #some_text{
@@ -47,7 +51,7 @@ body{
   top: 30%;
   left: 10%;
   color: white;
-  text-shadow: 0 0 15px black;
+  text-shadow:var(--typical_shadow);
 }
 
 #form{
@@ -70,7 +74,7 @@ body{
   border-radius: 15px 15px 0 0;
   font-size: 26px;
   color: white;
-  text-shadow: 0 0 15px black;
+  text-shadow: var(--typical_shadow);
 }
 
 form{
@@ -108,7 +112,7 @@ border-radius: 0 0 15px 15px;
   border: none;
   border-radius: 5px;
   font-size: 20px;
-  text-shadow: 0 0 15px black;
+  text-shadow: var(--typical_shadow);
 }
 
 .icon_holder{
@@ -134,7 +138,7 @@ ul li{
   padding: 50px;
   font-size: 20px;
   color: white;
-  text-shadow: 0 0 15px black;
+  text-shadow: var(--typical_shadow);
 }
 
 ul li a{
@@ -202,7 +206,7 @@ ul li:last-child{
   padding: 50px;
   font-size: 20px;
   color: white;
-  text-shadow: 0 0 15px black;
+  text-shadow: var(--typical_shadow);
 }
 
 ul li:last-child{
